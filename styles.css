@@ -1,4 +1,4 @@
-/* Reset default styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -185,9 +185,6 @@ body {
     padding: 2rem;
 }
 
-/* Existing CSS remains the same until media queries */
-
-/* Media Queries */
 @media screen and (max-width: 1200px) {
     .hero,
     .info-section,
@@ -231,7 +228,7 @@ body {
         max-width: 400px;
     }
 
-    /* Information Section */
+   
     .info-cards {
         flex-direction: column;
         align-items: center;
@@ -271,7 +268,7 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-    /* Further adjustments for very small screens */
+  
     .hero-text h1 {
         font-size: 28px;
     }
